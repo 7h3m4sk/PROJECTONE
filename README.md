@@ -35,9 +35,10 @@ systemctl status tor
 
 ```
 
-puzniej wejdz w sudo nano /etc/tor/torrc i zmień port na
+puzniej wejdz w tor komendą poniżej i zmień port
 
 ```bash
+sudo nano /etc/tor/torrc
 ControlPort 9051
 CookieAuthentication 1
 ```
