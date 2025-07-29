@@ -1,63 +1,70 @@
+# PROJECTONE
 
-PROJECTONE został stwożony z mysłą bycia bardziej anonimowym w sieci
+PROJECTONE was created with the goal of providing greater anonymity on the internet.
 
-# program został stworzony na arch linux w przyszłosci zaktualizuje je na reszte dystrybucji
-
-## Funkcje
-
-- Dynamiczna zmiana IP przez Tor (`NEWNYM`)
-- Detekcja zależności przy starcie
-- Podgląd aktualnego IP
-- Tryb stealth (w planach)
+> The program was developed and tested on Arch Linux. In the future, support for other distributions will be added.
 
 ---
 
-## 🛠Wymagania
+## Features
 
-- Linux (testowany na Arch Linux / Hyprland)
-- Python `>=3.10`
-- Zainstalowane biblioteki:
-  - `stem`
-  - `requests`
-  - `pysocks`
-  - `colorama`
+* Dynamic IP change via Tor (`NEWNYM`)
+* Dependency check on startup
+* Current IP address preview
+* Stealth mode *(planned)*
 
 ---
 
-## Instalacja
+## Requirements
 
-### Zainstaluj Tor
+* Linux (tested on Arch Linux / Hyprland)
+* Python `>=3.10`
+* Installed Python libraries:
+
+  * `stem`
+  * `requests`
+  * `pysocks`
+  * `colorama`
+
+---
+
+## Installation
+
+### Install Tor
 
 ```bash
 sudo pacman -S tor
 systemctl status tor
-
 ```
 
-puzniej wejdz w tor komendą poniżej
+Then open the Tor configuration file:
 
 ```bash
 sudo nano /etc/tor/torrc
 ```
-i zmień lub dodaj port i cookieautentication
+
+Add or modify the following lines:
 
 ```bash
 ControlPort 9051
 CookieAuthentication 1
 ```
 
-Potem zrestartuj Tor
+Restart the Tor service:
 
 ```bash
 sudo systemctl restart tor
 ```
 
-⚠️Zastrzeżenie
+---
 
-Ten projekt został stworzony do celów edukacyjnych i demonstracyjnych. Nie ponoszę odpowiedzialności za sposób jego wykorzystania.
-📜 Licencja
+## ⚠️ Disclaimer
 
-Projekt objęty licencją MIT
+This project was created for educational and demonstrational purposes only.
+The author is not responsible for any misuse of this software.
 
+---
 
+## 📜 License
 
+This project is licensed under the **MIT License**.
