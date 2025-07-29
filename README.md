@@ -39,6 +39,8 @@ puzniej wejdz w tor komendą poniżej i zmień port
 
 ```bash
 sudo nano /etc/tor/torrc
+```
+```bash
 ControlPort 9051
 CookieAuthentication 1
 ```
