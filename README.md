@@ -1,7 +1,7 @@
 
 PROJECTONE został stwożony z mysłą bycia bardziej anonimowym w sieci
 
----
+# program został stworzony na arch linux w przyszłosci zaktualizuje je na reszte dystrybucji
 
 ## Funkcje
 
