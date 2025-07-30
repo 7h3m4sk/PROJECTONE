@@ -2,6 +2,8 @@
 
 PROJECTONE was created with the goal of providing greater anonymity on the internet.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5687ae5a-d10a-4a84-80b3-b5aa19fa3900" />
+
 > The program was developed and tested on Arch Linux. In the future, support for other distributions will be added.
 
 ---
