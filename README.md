@@ -91,6 +91,14 @@ The author is not responsible for any misuse of this software.
 
 ---
 
+### Future update
+
+##In the future, I plan to add 
+# ~Tor bridge mode 
+# ~support for some Linux distributions and also Windows
+
+---
+
 ## 📜 License
 
 This project is licensed under the **MIT License**.
