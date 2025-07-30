@@ -66,9 +66,19 @@ and type
 ```
 cd "file location"
 ```
+
+now give the file permissions
+```
+sudo chmod +x projectone.py
+```
+
+now start script 
+
 ```
 sudo python projectone.py
 ```
+
+and Well done, if you installed everything correctly the script will work, if something goes wrong the script will tell you
 
 ---
 
