@@ -58,6 +58,20 @@ sudo systemctl restart tor
 
 ---
 
+### start program
+
+now download the PROJECTONE.py file and put it in some folder or leave it in downlands
+and type
+
+```
+cd "file location"
+```
+```
+sudo python projectone.py
+```
+
+---
+
 ## ⚠️ Disclaimer
 
 This project was created for educational and demonstrational purposes only.
